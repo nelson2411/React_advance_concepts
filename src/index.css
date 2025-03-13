@@ -50,4 +50,7 @@ nav li a {
 .nav-active {
   color: grey;
   transition: all 0.3s ease-out;
+  background-color: antiquewhite;
+  padding: 2px;
+  border-radius: 4px;
 }
