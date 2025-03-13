@@ -16,6 +16,7 @@ This project aims to provide a comprehensive learning experience for developers 
 ## Features
 
 - React Router V6
+- Lazy Load
 - Performance optimization techniques
 - Custom hooks and higher-order components
 - Formik
