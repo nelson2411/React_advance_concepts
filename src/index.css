@@ -20,6 +20,12 @@ code {
   flex-direction: row;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
 nav {
   background-color: #363a45;
   height: 100vh;

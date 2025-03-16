@@ -1,9 +1,9 @@
 import React from "react"
 
-const LazyPage02 = () => {
+export const NoLazyLoad = () => {
   return (
     <div>
-      <h1>Lazy Page 02</h1>
+      <h1>No Lazy Load</h1>
       <p>
         Chambray venmo cornhole farm-to-table cray, live-edge readymade pork
         belly. Neutral milk hotel schlitz plaid tacos, roof party lyft hot
@@ -13,5 +13,3 @@ const LazyPage02 = () => {
     </div>
   )
 }
-
-export default LazyPage02
