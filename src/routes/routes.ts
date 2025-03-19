@@ -1,5 +1,4 @@
-import { lazy, LazyExoticComponent } from "react"
-import { LazyPage01, LazyPage02, LazyPage03 } from "../01-lazyload/pages"
+import { lazy } from "react"
 import { NoLazyLoad } from "01-lazyload/pages/NoLazyLoad"
 
 interface Route {
