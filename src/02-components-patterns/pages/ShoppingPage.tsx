@@ -1,5 +1,11 @@
 import React from "react"
 import ProductCard from "../components/ProductCard"
+import {
+  ProductButtons,
+  ProductImage,
+  ProductTitle,
+} from "../components/ProductCard"
+import { useProduct } from "02-components-patterns/hooks/useProduct"
 
 const product = {
   id: 1,
@@ -8,6 +14,7 @@ const product = {
 }
 
 const ShoppingPage = () => {
+  const { counter, increaseBy } = useProduct()
   return (
     <div>
       <h1>Shopping Page</h1>
@@ -27,8 +34,11 @@ const ShoppingPage = () => {
           marginBottom: "2rem",
         }}
       >
-        <ProductCard product={product} />
-        <ProductCard product={product} />
+        <ProductCard product={product}>
+          <ProductImage img={product.img} />
+          <ProductTitle title={product.title} />
+          <ProductButtons counter={counter} increaseBy={increaseBy} />
+        </ProductCard>
       </div>
     </div>
   )
